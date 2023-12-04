@@ -1,0 +1,8 @@
+--vim.g.vsnip_snippet_dir = '~/.local/share/nvim/plugged/vs-snippets/snippets'")
+--vim.g.vsnip_filetypes = {}")
+--vim.g.vsnip_filetypes.javascriptreact = ['javascript']")
+--vim.g.vsnip_filetypes.typescriptreact = ['typescript', 'typescriptreact']")
+vim.cmd("let g:vsnip_snippet_dir = '~/.local/share/nvim/site/pack/packer/start/vs-snippets/snippets'")
+vim.cmd("let g:vsnip_filetypes = {}")
+vim.cmd("let g:vsnip_filetypes.javascriptreact = ['javascript']")
+vim.cmd("let g:vsnip_filetypes.typescriptreact = ['typescript', 'react-ts', 'react', 'react-es7', 'next-ts', 'next']")
