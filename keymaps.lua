@@ -35,7 +35,6 @@ vim.api.nvim_set_keymap("v", "<Tab>", ">><ESC>gv", opts)
 vim.api.nvim_set_keymap("v", "<S-Tab>", "<<<Esc>gv", opts)
 
 -- quickfix list
-vim.api.nvim_set_keymap("i", "<leader>q", ":copen<CR>", opts)
 vim.api.nvim_set_keymap("n", "<leader>q", ":copen<CR>", opts)
 vim.api.nvim_set_keymap("n", "[q", ":cprevious<CR>", opts)
 vim.api.nvim_set_keymap("n", "]q", ":cnext<CR>", opts)
